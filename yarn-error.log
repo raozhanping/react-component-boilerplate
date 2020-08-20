@@ -1,0 +1,42 @@
+Arguments: 
+  /home/zhanping/.nvm/versions/node/v10.16.0/bin/node /mnt/c/Program Files (x86)/Yarn/bin/yarn.js add react -react-dom @types/react
+
+PATH: 
+  /home/zhanping/.nvm/versions/node/v10.16.0/bin:/home/zhanping/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files (x86)/NetSarang/Xshell 6/:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/Docker/Docker/Resources/bin:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Enterprise Vault/EVClient/x64/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/raozhanping/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files (x86)/Yarn/bin/:/mnt/c/Ruby26-x64/bin:/mnt/c/Users/raozhanping/.cargo/bin:/mnt/c/Users/raozhanping/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/raozhanping/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/raozhanping/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Users/raozhanping/AppData/Local/Yarn/bin:/mnt/c/devtool/nginx-1.16.1:/mnt/c/devtool/dig/bin:/mnt/c/OpenSSL-Win64/bin:/mnt/c/Users/raozhanping/AppData/Local/Programs/Fiddler:/mnt/c/Users/raozhanping/AppData/Local/hyper/app-3.0.2/resources/bin:/snap/bin:/home/zhanping/.yarn/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  10.16.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.npm.taobao.org/-d: Not found
+      at Request.params.callback [as _callback] (/mnt/c/Program Files (x86)/Yarn/lib/cli.js:66096:18)
+      at Request.self.callback (/mnt/c/Program Files (x86)/Yarn/lib/cli.js:140748:22)
+      at Request.emit (events.js:198:13)
+      at Request.<anonymous> (/mnt/c/Program Files (x86)/Yarn/lib/cli.js:141720:10)
+      at Request.emit (events.js:198:13)
+      at IncomingMessage.<anonymous> (/mnt/c/Program Files (x86)/Yarn/lib/cli.js:141642:12)
+      at Object.onceWrapper (events.js:286:20)
+      at IncomingMessage.emit (events.js:203:15)
+      at endReadableNT (_stream_readable.js:1129:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "react-component-boilerplate",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "zhanping <raozhanping@gmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
